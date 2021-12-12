@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Turno Cursos</string>
+    <string name="seleccion">Seecciona un turno y uno o varios cursos</string>
+    <string name="curso">Seleccione los cursos que desee</string>
+</resources>
