@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contar</string>
+    <string name="menos">-</string>
+    <string name="reset">RESET</string>
+    <string name="ocultar">OCULTAR</string>
+    <string name="menor">a-</string>
+    <string name="grande">A+</string>
+    <string name="mas">+</string>
+    <string name="contador">0</string>
+</resources>

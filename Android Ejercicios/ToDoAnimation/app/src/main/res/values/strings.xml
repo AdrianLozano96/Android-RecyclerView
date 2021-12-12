@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ToDo Dialogos</string>
+
+    <string name="action_setting">Ajustes</string>
+    <string name="action_add">Añadir</string>
+    <string name="animations_title">Velocidad de animacion</string>
+    <string name="descripcion_hint">Descripcion</string>
+    <string name="idea_checkbox">Idea</string>
+    <string name="important_checkbox">Importante</string>
+    <string name="todo_checkbox">Tarea</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="ok_button">Ok</string>
+    <string name="sound_checkbox">On or Off</string>
+
+
+    <string name="settings_title">Ajustes</string>
+    <string name="sound_title">Sonido</string>
+    <string name="rb_fast">Rápido</string>
+    <string name="rb_slow">Lento</string>
+    <string name="rb_none">Ninguno</string>
+    <string name="title_hint">Titulo</string>
+</resources>

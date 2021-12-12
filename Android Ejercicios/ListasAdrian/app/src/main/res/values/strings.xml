@@ -1,0 +1,17 @@
+<resources>
+    <string name="Listas_Adrian">AppPersonal_AdrianLozano</string>
+    <string name="bienvenidos_a_la_app_de_listas">BIENVENIDOS A MI APP DE LISTAS</string>
+    <string name="lista_de_tareas">lista de tareas</string>
+    <string name="lista_de_tareas_pendientes">LISTA DE TAREAS PENDIENTES</string>
+    <string name="top_peliculas">TOP MEJORES PELICULAS</string>
+    <string name="add">Add</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="titulo">titulo</string>
+    <string name="descripcion">descripcion</string>
+    <string name="fecha">fecha</string>
+    <string name="aceptar">aceptar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="volver">volver</string>
+    <string name="borrar">borrar</string>
+    <string name="favoritos">Favoritos</string>
+</resources>

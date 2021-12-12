@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4">
+
+    <TextView
+        android:id="@+id/mt_titulo"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+        android:text="@string/titulo"
+        android:textColor="#9C27B0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mt_favoritos"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <TextView
+        android:id="@+id/mt_descripcion"
+        android:layout_width="271dp"
+        android:layout_height="164dp"
+        android:text="@string/descripcion"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mt_titulo"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <Button
+        android:id="@+id/mt_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F31505"
+        android:text="@string/volver"
+        android:textColor="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mt_descripcion"
+        app:layout_constraintVertical_bias="0.878"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/mt_borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F60505"
+        android:text="@string/borrar"
+        android:textColor="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mt_descripcion"
+        app:layout_constraintVertical_bias="0.878"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/mt_favoritos"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:fillColor="@color/orito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/ic_baseline_star_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

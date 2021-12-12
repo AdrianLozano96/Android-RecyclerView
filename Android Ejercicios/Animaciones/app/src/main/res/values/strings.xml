@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Animaciones</string>
+    <string name="todo">TODO</string>
+    <string name="anim1">Anim1</string>
+    <string name="anim2">Anim2</string>
+    <string name="anim3">Anim3</string>
+    <string name="anim4">Anim4</string>
+    <string name="anim5">Anim5</string>
+    <string name="anim6">Anim6</string>
+    <string name="anim7">Anim7</string>
+    <string name="anim8">Anim8</string>
+    <string name="anim9">Anim9</string>
+    <string name="textview">TextView</string>
+    <string name="speedtext">speedText</string>
+    <string name="iconop">iconop</string>
+</resources>
